@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<marquee><h1>Player Registration Form</h1></marquee>
+		<div>
+		<fieldset>
+		<legend>Registration Form</legend>
+		<form name="Myform" action="thanks.html" method="post">
+			<label>Name:</label><input type="text" name="name" required="required"
+			placeholder="Enter name" pattern="[A-Za-z']{2,15}"><br><br>
+			Mobile No:<input type="text" name="mobile" minlength="10"
+			maxlength="10" required="required" placeholder="Enter Number"
+			pattern="[6-9]{1}[0-9]{9}"><br><br>
+
+			<label>Birth Date:</label><input type="Date" name=""><br><br>
+			<label>Gender:</label><input type="Radio" name="Gender" value="male">Male
+			<input type="radio" name="Gender" value="female">Female<br><br>
+			<label>position :</label><input type="checkbox" name="position[]"
+			value="cricket">Cricket
+			<input type="checkbox" name="position[]" value="Attacking">Attacking
+			<input type="checkbox" name="position[]" value="MidField">Midfield
+			<input type="checkbox" name="position[]" value="Defending">Defending
+			<input type="checkbox" name="position[]" value="Goalkeeping">Goalkeeping
+			
+			<
+			<label>city: </label>
+			<select>
+				<option>pune
+					<option>Mumbai
+						<option>Banglore
+							<option>Kerla
+							</select>
+							<label>Nationality : </label><input type="text" name="" value="Indian" readonly="readonly"><br><br>
+						<input type="submit" name="Submit">
+						<input type="Reset" name="RESET">
+
+		</form>
+	</fieldset>
+	<fieldset>
+		<legend>Address</legend>
+		<address>Real Madrid,<br>Kothrud,Jaihind Stadium<br>Pune.</address>
+	</fieldset>
+</div>
+</body>
+</html>
